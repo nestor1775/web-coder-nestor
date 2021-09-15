@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+
+    .container-lg{
+        background-color: rgb(255, 255, 255);
+    }
+    .container{
+        background-color: rgb(255, 255, 255);
+        margin: 20px;
+    }
+    header{
+        .logo{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}

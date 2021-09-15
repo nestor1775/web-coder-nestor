@@ -1,0 +1,95 @@
+/* variables/mapas */
+$titulos:(
+    "regular": 25px,
+    "mediano": 60px,
+);
+$imagenes:(
+    "regular": 300px,
+    "mediano": 600px,
+);
+
+/* imports */
+@import "estructura";
+@import "footer";
+@import "textos-encabezados";
+@each $name, $size in $titulos {
+    .titulo-#{$name} {  
+        font-size: $size;
+    }   
+}
+@each $name, $size in $imagenes {
+    .imagenes-#{$name} {  
+        height: $size;
+    } 
+}
+
+
+/* ======================home======================== */
+
+.logo{
+    .logo__img{
+        width: 150px;
+        height: auto; 
+    }
+}
+/*grid BT */
+.container-lg{
+    .bannerAccesorios{
+        
+        .bannerAccesorios__img{
+            transition: transform .50s;
+            padding-top: 20px;
+            cursor: pointer;
+        }
+        .bannerAccesorios__img:hover{
+            transform: scale(0.9);
+        }
+
+    }
+
+  
+/* ======================mas vendidos======================== */
+        .bannerTienda{
+            padding-top: 20px;
+            padding-bottom:10px ;
+            opacity: 100%;
+        }
+        .productos{
+            padding: 30px;
+        }
+
+}
+
+.btn{
+    background-color:rgba(212, 212, 212, 0.74);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: transform .50s;
+}
+    .btn:hover{
+        background-color:rgba(109, 255, 187, 0.74);
+        border-color: rgba(109, 255, 187, 0.74);
+        color: rgb(0, 0, 0);
+    }
+
+/* ==============conocenos============== */
+.container-lg{
+        .titulos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                h3{
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+        }
+        .col{
+            justify-content: center;
+            display: flex;
+        }
+        
+}
+
+
+
+

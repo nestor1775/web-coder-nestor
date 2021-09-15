@@ -1,0 +1,18 @@
+.encabezados{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    .principal{
+        color: black;
+        padding: 20px;
+    }
+}
+.contenidoTextos{
+    text-align:center ;
+    align-items: center;
+    .contenidoTextos__p{
+        color: black;
+        
+    }
+
+}
