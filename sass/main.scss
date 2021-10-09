@@ -34,6 +34,19 @@ $imagenes:(
 }
 /*grid BT */
 .container-lg{
+    .titulos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            h3{
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+    }
+    .col{
+        justify-content: center;
+        display: flex;
+    }
     .bannerAccesorios{
         
         .bannerAccesorios__img{
@@ -72,23 +85,8 @@ $imagenes:(
         color: rgb(0, 0, 0);
     }
 
-/* ==============conocenos============== */
-.container-lg{
-        .titulos{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-                h3{
-                    padding-top: 30px;
-                    padding-bottom: 30px;
-                }
-        }
-        .col{
-            justify-content: center;
-            display: flex;
-        }
-        
-}
+
+
 
 
 
