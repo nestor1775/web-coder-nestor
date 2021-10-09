@@ -1,6 +1,6 @@
 <!-- Proyecto Final del curso de Desarrollo web de Coderhouse -->
 
-Ultimos proyecto del corsu de paginas web de coder, muchas gracias profesor por su tiempo y buen trabajo, saludos!
+Ultimo proyecto del curso de paginas web de coder, muchas gracias profesor por su tiempo y buen trabajo, saludos!
 
 Comisión: 22220.
 Profesor: Rodrigo Zungi.
